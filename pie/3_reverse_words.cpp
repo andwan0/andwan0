@@ -58,8 +58,8 @@ bool reverseWords(char str[])
 	/* null terminate buffer and copy over str */
 	buffer[writePos] = '\0';
 	//strlcpy(str, buffer, slen + 1);
-	//memcpy(str, buffer, slen + 1);
-	strncpy(str, buffer, slen + 1);
+	memcpy(str, buffer, slen + 1);
+	//strncpy(str, buffer, slen + 1);
 	free(buffer);
 	//delete buffer;
 
@@ -68,7 +68,7 @@ bool reverseWords(char str[])
 
 int main()
 {
-	char *str = "Do or do not, there is no try.";
+	char str[128] = "Do or do not, there is no try.";
 	reverseWords(str);
 	//cout << str;
 	//cin.ignore();
