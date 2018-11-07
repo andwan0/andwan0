@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Dcoder3 {
+class Dcoder {
 
 	public int lengthOfLongestSubstring(String s) {
 		int n = s.length();
@@ -22,7 +22,7 @@ class Dcoder3 {
 	}
 
     public static void main(String[] args) {
-        Dcoder3 z = new Dcoder3();
+        Dcoder z = new Dcoder();
 	    System.out.println("003");
     }
 }

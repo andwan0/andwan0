@@ -1,4 +1,4 @@
-class Dcoder1 {
+class Dcoder {
     /*
     Approach 1: Brute Force
     The brute force approach is simple. Loop through each element x and
@@ -16,7 +16,7 @@ class Dcoder1 {
 	}
 
 	public static void main(String[] args) {
-        Dcoder1 z = new Dcoder1();
+        Dcoder z = new Dcoder();
 		System.out.println("001");
 		int[] nums = {2, 7, 11, 15};
 		int target = 9;

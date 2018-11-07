@@ -11,7 +11,7 @@ class ListNode {
     ListNode next;
     ListNode(int x) { val = x; }
 }
-class Dcoder2 {
+class Dcoder {
 
 
 	/*
@@ -41,7 +41,7 @@ class Dcoder2 {
 	}
 
 	public static void main(String[] args) {
-        Dcoder2 z = new Dcoder2();
+        Dcoder z = new Dcoder();
 		System.out.println("002");
 
 		ListNode a = new ListNode(2);
