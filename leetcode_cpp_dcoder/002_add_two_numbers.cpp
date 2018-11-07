@@ -65,24 +65,25 @@ public:
     }
 };
 
+int main()
+{
+    cout << "Hello, Dcoder!";
 
- int main()
- {
- 	cout << "Hello, Dcoder!";
- 	
- 	ListNode a(2);
- 	ListNode *p = a.next = new ListNode(4);
- 	p->next = new ListNode(3);
- 	
- 	ListNode b(5);
- 	p = b.next = new ListNode(6);
- 	p->next = new ListNode(4);
- 	
- 	Solution s;
- 	ListNode *o = s.addTwoNumbers(&a, &b);
- 	
- 	while(o) {
- 		cout << o->val;
- 		o = o->next;
- 	}
- }
+    ListNode a(2);
+    ListNode *p = a.next = new ListNode(4);
+    p->next = new ListNode(3);
+
+    ListNode b(5);
+    p = b.next = new ListNode(6);
+    p->next = new ListNode(4);
+
+    Solution s;
+    ListNode *o = s.addTwoNumbers(&a, &b);
+
+    while (o)
+    {
+        cout << o->val;
+        o = o->next;
+    }
+    system("pause");
+}

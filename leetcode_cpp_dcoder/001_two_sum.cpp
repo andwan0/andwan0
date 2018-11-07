@@ -25,19 +25,17 @@ public:
     }
 };
 int main()
- {
- 	cout << "Hello, Dcoder!";
- 	Solution a;
- 	vector<int> number = {
- 		1,2,3,4,5,6
- 	};
- 	int target = 6;
- 	vector<int> res = a.twoSum(number, target);
- 	
- 	
- 	for(int i=0;i<res.size();i++) {
- 		cout << res[i];
- 	}
- 	
- 	
- }
+{
+    cout << "Hello, Dcoder!";
+    Solution a;
+    vector<int> number = {
+        1, 2, 3, 4, 5, 6};
+    int target = 6;
+    vector<int> res = a.twoSum(number, target);
+
+    for (int i = 0; i < res.size(); i++)
+    {
+        cout << res[i];
+    }
+    system("pause");
+}
