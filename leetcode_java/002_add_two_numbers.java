@@ -6,6 +6,7 @@
  *     ListNode(int x) { val = x; }
  * }
  */
+//class Dcoder {
 class _002 {
 	public class ListNode {
 		int val;
