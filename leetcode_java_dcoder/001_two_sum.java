@@ -1,4 +1,4 @@
-package two_sum;
+package _001_two_sum;
 
 class Solution {
     /*

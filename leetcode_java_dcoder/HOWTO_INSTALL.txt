@@ -1,0 +1,4 @@
+Use IntelliJ IDEA
+Import folder as file-based project.
+Change build/run configuration, picking which module is main.
+Enjoy!

@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c188ffd-7a04-44cc-913a-6be5acac2032" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../leetcode_cpp_dcoder/.vscode/tasks.json" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode_cpp_dcoder/.vscode/tasks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode_cpp_dcoder/001_two_sum.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode_cpp_dcoder/001_two_sum.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode_cpp_dcoder/002_add_two_numbers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode_cpp_dcoder/002_add_two_numbers.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode_cpp_dcoder/003_longest_substr_without_repeat.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode_cpp_dcoder/003_longest_substr_without_repeat.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode_java/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode_java/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode_java/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode_java/001_two_sum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode_java/002_add_two_numbers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode_java/003_longest_substring_without_repeating_characters.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode_java/leetcode_java.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/001_two_sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/001_two_sum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/002_add_two_numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/002_add_two_numbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/003_longest_substring_without_repeating_characters.java" beforeDir="false" afterPath="$PROJECT_DIR$/003_longest_substring_without_repeating_characters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/004_median_two_sorted_array.java" beforeDir="false" afterPath="$PROJECT_DIR$/004_median_two_sorted_array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode_java_dcoder.iws" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode_java_dcoder.iws" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,22 +25,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="12" />
+          <entry key="java" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="12" />
+          <entry key="JAVA" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="141" />
+          <entry key="java" value="159" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="141" />
+          <entry key="JAVA" value="159" />
         </counts>
       </usages-collector>
     </session>
@@ -57,19 +48,28 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/001_two_sum.java">
+        <entry file="file://$PROJECT_DIR$/004_median_two_sorted_array.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="16" />
+            <state relative-caret-position="697">
+              <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/004_median_two_sorted_array.java">
+        <entry file="file://$PROJECT_DIR$/003_longest_substring_without_repeating_characters.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+            <state>
+              <caret column="12" selection-start-column="12" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/001_two_sum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="12" selection-start-column="12" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -78,16 +78,7 @@
         <entry file="file://$PROJECT_DIR$/002_add_two_numbers.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="24" selection-start-column="24" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/003_longest_substring_without_repeating_characters.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+              <caret column="12" selection-start-column="12" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -102,16 +93,16 @@
       <list>
         <option value="$PROJECT_DIR$/004_median_two_sorted_array.java" />
         <option value="$PROJECT_DIR$/001_two_sum.java" />
-        <option value="$PROJECT_DIR$/003_longest_substring_without_repeating_characters.java" />
         <option value="$PROJECT_DIR$/002_add_two_numbers.java" />
+        <option value="$PROJECT_DIR$/003_longest_substring_without_repeating_characters.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="88" />
-    <option name="y" value="44" />
-    <option name="width" value="1648" />
-    <option name="height" value="939" />
+    <option name="x" value="292" />
+    <option name="y" value="187" />
+    <option name="width" value="1478" />
+    <option name="height" value="905" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -183,6 +174,11 @@
             <path>
               <item name="leetcode_java_dcoder" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode_java_dcoder" type="462c0819:PsiDirectoryNode" />
+              <item name="003_longest_substring_without_repeating_characters.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="leetcode_java_dcoder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode_java_dcoder" type="462c0819:PsiDirectoryNode" />
               <item name="004_median_two_sorted_array.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
@@ -192,7 +188,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541675320734" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541675713437" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -208,7 +204,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Dcoder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="two_sum.Dcoder" />
+      <option name="MAIN_CLASS_NAME" value="_001_two_sum.Dcoder" />
       <module name="leetcode_java_dcoder" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -234,7 +230,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="88" y="44" width="1648" height="939" extended-state="0" />
+    <frame x="1962" y="93" width="1648" height="939" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -247,10 +243,10 @@
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" visible="true" weight="0.32919255" />
+      <window_info anchor="bottom" id="Messages" weight="0.32919255" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32919255" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -272,28 +268,28 @@
     <entry file="file://$PROJECT_DIR$/001_two_sum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/003_longest_substring_without_repeating_characters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/002_add_two_numbers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/004_median_two_sorted_array.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        <state relative-caret-position="697">
+          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/003_longest_substring_without_repeating_characters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>

@@ -1,4 +1,4 @@
-package median_two_sorted_array;
+package _004_median_two_sorted_array;
 
 import java.text.DecimalFormat;
 
