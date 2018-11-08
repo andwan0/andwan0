@@ -8,7 +8,7 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "-g", "001_two_sum.cpp"
+                "-g", "002_add_two_numbers.cpp"
             ],
             "group": {
                 "kind": "build",

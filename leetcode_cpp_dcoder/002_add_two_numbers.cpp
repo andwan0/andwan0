@@ -1,4 +1,6 @@
 #include <iostream>
+#include <algorithm>
+#include <string>
 using namespace std;
  //Compiler version g++ 6.3.0
 
@@ -65,10 +67,22 @@ public:
     }
 };
 
+//taken from leetcode debug playground
+string listNodeToString(ListNode* node) {
+    if (node == nullptr) {
+        return "[]";
+    }
+
+    string result;
+    while (node) {
+        result += to_string(node->val) + ", ";
+        node = node->next;
+    }
+    return "[" + result.substr(0, result.length() - 2) + "]";
+}
+
 int main()
 {
-    cout << "Hello, Dcoder!";
-
     ListNode a(2);
     ListNode *p = a.next = new ListNode(4);
     p->next = new ListNode(3);
@@ -77,13 +91,9 @@ int main()
     p = b.next = new ListNode(6);
     p->next = new ListNode(4);
 
-    Solution s;
-    ListNode *o = s.addTwoNumbers(&a, &b);
+    ListNode* ret = Solution().addTwoNumbers(&a, &b);
 
-    while (o)
-    {
-        cout << o->val;
-        o = o->next;
-    }
+    string out = listNodeToString(ret);
+    cout << out << endl;
     system("pause");
 }

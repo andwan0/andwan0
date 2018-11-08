@@ -1,11 +1,9 @@
 #include <iostream>
-
+#include <algorithm> // std::find_if
 #include <vector>
+#include <string>
 using namespace std;
  //Compiler version g++ 6.3.0
-
-
- 
 
 class Solution {
 public:
@@ -24,18 +22,34 @@ public:
         
     }
 };
+
+//taken from leetcode's debug playground
+string integerVectorToString(vector<int> list, int length = -1) {
+    if (length == -1) {
+        length = list.size();
+    }
+
+    if (length == 0) {
+        return "[]";
+    }
+
+    string result;
+    for(int index = 0; index < length; index++) {
+        int number = list[index];
+        result += to_string(number) + ", ";
+    }
+    return "[" + result.substr(0, result.length() - 2) + "]";
+}
+
 int main()
 {
-    cout << "Hello, Dcoder!";
-    Solution a;
-    vector<int> number = {
+    vector<int> nums = {
         1, 2, 3, 4, 5, 6};
     int target = 6;
-    vector<int> res = a.twoSum(number, target);
 
-    for (int i = 0; i < res.size(); i++)
-    {
-        cout << res[i];
-    }
+    vector<int> ret = Solution().twoSum(nums, target);
+
+    string out = integerVectorToString(ret);
+    cout << out << endl;
     system("pause");
 }

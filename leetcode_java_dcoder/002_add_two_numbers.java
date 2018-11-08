@@ -1,3 +1,5 @@
+package add_two_numbers;
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -11,9 +13,9 @@ class ListNode {
     ListNode next;
     ListNode(int x) { val = x; }
 }
-class Dcoder {
 
 
+class Solution {
 	/*
 	Approach 1: Elementary Math
 	Intuition
@@ -39,24 +41,68 @@ class Dcoder {
 		}
 		return dummyHead.next;
 	}
+}
+//Dcoder class must not be public
+class Dcoder {
+    public static int[] stringToIntegerArray(String input) {
+        input = input.trim();
+        input = input.substring(1, input.length() - 1);
+        if (input.length() == 0) {
+            return new int[0];
+        }
+
+        String[] parts = input.split(",");
+        int[] output = new int[parts.length];
+        for(int index = 0; index < parts.length; index++) {
+            String part = parts[index].trim();
+            output[index] = Integer.parseInt(part);
+        }
+        return output;
+    }
+
+    public static ListNode stringToListNode(String input) {
+        // Generate array from the input
+        int[] nodeValues = stringToIntegerArray(input);
+
+        // Now convert that list into linked list
+        ListNode dummyRoot = new ListNode(0);
+        ListNode ptr = dummyRoot;
+        for(int item : nodeValues) {
+            ptr.next = new ListNode(item);
+            ptr = ptr.next;
+        }
+        return dummyRoot.next;
+    }
+
+    public static String listNodeToString(ListNode node) {
+        if (node == null) {
+            return "[]";
+        }
+
+        String result = "";
+        while (node != null) {
+            result += Integer.toString(node.val) + ", ";
+            node = node.next;
+        }
+        return "[" + result.substring(0, result.length() - 2) + "]";
+    }
 
 	public static void main(String[] args) {
-        Dcoder z = new Dcoder();
 		System.out.println("002");
 
-		ListNode a = new ListNode(2);
-		ListNode p = a.next = new ListNode(4);
+		ListNode l1 = new ListNode(2);
+		ListNode p = l1.next = new ListNode(4);
         p.next = new ListNode(3);
 
-        ListNode b = new ListNode(5);
-        p = b.next = new ListNode(6);
+        ListNode l2 = new ListNode(5);
+        p = l2.next = new ListNode(6);
         p.next = new ListNode(4);
 
-        ListNode o = z.addTwoNumbers(a, b);
-        while(o != null) {
-            System.out.println(o.val);
-            o = o.next;
-        }
+        ListNode ret = new Solution().addTwoNumbers(l1, l2);
+
+        String out = listNodeToString(ret);
+
+        System.out.print(out);
 
 	}
 }
