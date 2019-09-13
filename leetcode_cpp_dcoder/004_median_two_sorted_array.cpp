@@ -1,3 +1,9 @@
+#include <iostream>
+#include <vector>
+#include <string>
+#include <limits.h>
+using namespace std;
+
 class Solution {
 public:
     double findk(int a[], int m, int b[], int n, int k) {
@@ -26,10 +32,35 @@ public:
             }
         }
     }
-    double findMedianSortedArrays(int A[], int m, int B[], int n) {
+    double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
+    //double findMedianSortedArrays(int A[], int m, int B[], int n) {
+        int m = nums1.size();
+        int n = nums2.size();
+        int* A = &nums1[0];
+        int* B = &nums2[0];
+
         if ((m + n) & 1) {
             return findk(A, m, B, n, (m + n - 1) / 2);
         }
         return (findk(A, m, B, n, (m + n - 1) / 2) + findk(A, m, B, n, (m + n) / 2)) / 2.0;
     }
 };
+
+int main() {
+    string line;
+
+    vector<int> nums1 = {1, 3};
+    vector<int> nums2 = {2};
+    int A[2] = {1, 3};
+    int m = 2;
+    int B[1] = {2};
+    int n = 1;
+    
+    //double ret = Solution().findMedianSortedArrays(A, m, B, n);
+    double ret = Solution().findMedianSortedArrays(nums1, nums2);
+
+    string out = to_string(ret);
+    cout << out << endl;
+    system("pause");
+    return 0;
+}
