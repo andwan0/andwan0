@@ -33,15 +33,24 @@ void findJumps(int N, int X){
     
     // Your code here
     int left = 0, right = 0;
-    for (int a = 1; a < X; a+=2) {
+    
+    int START;
+    if (X%2==0)//if even, then right-side has 1 less stone
+        START = 2;
+    for (int a = 0; a < N; a+=2) {
+        if (X == a || X == a+1)
+            break;
         left++;
     }
-    if(N%2==0)
-    N++;
-    for (int b = N; b > X; b-=2) {
+    if(N%2!=0)
+        N--;
+    for (int b = N; b > 0; b-=2) {
+        if (X == b || X == b+1)
+            break;
         right++;
     }
-    cout << std::min(left, right);
+    cout << std::min(left, right);//if we jumping from land
+    //cout << left << " " << right;
     
     cout << endl;
     

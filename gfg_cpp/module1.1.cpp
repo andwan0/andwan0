@@ -36,12 +36,12 @@ Driver Code to call/invoke your function is mentioned above.*/
 void operations(int a, int b, int c){
     
     // Your code here
-    int x = (int)pow((double)a, (double)b);
-    int y = x ^ c;
-    int z = x % c;
+    long long int P = (long long int)pow((double)a, (double)b);
+    long long int XOR = P ^ c;
+    long long int REMAINDER = P % c;
 
-    cout << x << endl;
-    cout << y << endl;
-    cout << z << endl;
+    cout << P << endl;
+    cout << XOR << endl;
+    cout << REMAINDER << endl;
     
 }
