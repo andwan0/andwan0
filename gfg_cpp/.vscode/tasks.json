@@ -8,7 +8,7 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "-g", "module1.3.cpp"
+                "-g", "module1.1.cpp"
             ],
             "group": {
                 "kind": "build",

@@ -1,0 +1,30 @@
+Vector Common Elements
+
+You are given two sorted vectors of size n and m. You need to find the common elements.
+
+Input Format:
+The first line of input contains T denoting the number of testcases. T testcases follow. The first line of each testcase contains n and m separated by a space. The second line of each testcase contains n elements of first vector. The next line contains m elements of second vector. The elements of the vectors are denoted by vi.
+
+Output Format:
+For each testcase, in a new line, print the common elements in a sorted order. If no common elements exist then print Empty.
+
+Your Task:
+Since this is a function problem, you don't need to take any input. Just complete the function commonElements that takes two vectors as input and returns a third vector(with common elements) as output.
+
+Constraints:
+1 <= T <= 100
+1<= n, m <= 106
+0 <= vi <= 107
+
+Examples:
+Input:
+2
+5 6
+1 2 3 4 5
+3 4 5 6 7 8
+1 2
+1
+3 4
+Output:
+3 4 5
+Empty

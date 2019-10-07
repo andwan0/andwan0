@@ -1,9 +1,11 @@
 /leetcode_java_dcoder/out/
-/gfg_java/out
-/leetcode_java_dcoder/out/
 /gfg_java/out/
 *.iml
 *.ipr
 *.iws
 *.class
 *.exe
+*.ilk
+*.pdb
+*.obj
+*.pdb

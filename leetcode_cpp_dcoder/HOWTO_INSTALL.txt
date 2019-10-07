@@ -2,6 +2,10 @@ https://www.youtube.com/watch?v=DIw02CaEusY
 
 Install mingw-get is fine.
 
+Add C:\MinGW\bin to path.
+(Control Panel, System, Advanced system settings, Environment variables, System variables)
+Ext install cpptools
+
 Visual Studio Code
 CTRL SHIFT P
 

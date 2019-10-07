@@ -1,0 +1,43 @@
+Prioritized Students
+
+Given some student data as their name and marks, and given Q queries.The task is to insert these student's data into the priority_queue or return required element from the priority_queue based on the query.
+
+Input:
+First line of input contains number of testcases T. For each testcase, there will be Q queries. The task is to perform operation based on the queries, as below:
+1. i : means insert student data into the queue
+2. o : means return student data with max marks, tie break with lexicographically larger name.
+
+Output:
+For each testcase, print the required top student data as name and marks from the priority queue. If priority_queue is empty, return (empty, -1) as pair elements.
+
+Constraints:
+1 <= T <= 100
+1 <= Q <= 103
+1 <= marks <= 106
+
+User Task:
+Your task is to complete the functions insert() and maxFromQueue() which should insert the element into the queue and return top data from the queue respectively.
+
+Example:
+Input:
+1
+9
+i john 100
+i ankit 200
+i parul 200
+o
+i baba 150
+o
+o
+o
+o
+
+Output:
+parul 200
+ankit 200
+baba 150
+john 100
+empty -1
+
+Explanation:
+Testcase 1: parul and ankit is having maximum marks till now but parul is lexicographically larger than ankit, so it is returned. Similarly other operations are also performed.

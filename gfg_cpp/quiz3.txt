@@ -1,0 +1,13 @@
+3.
+What is the meaning of the following declaration?
+
+int (*pt[4])()
+
+A
+pt is pointer to function
+B
+pt is array of pointer to function
+C
+pt is pointer to such function which return type is array
+D
+pt is pointer to array of function

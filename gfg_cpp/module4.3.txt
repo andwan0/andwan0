@@ -1,0 +1,30 @@
+Play With Vectors
+
+Given a vector of N pairs, where pairs consists of two positive integers. The task is to delete all the pair from vector whose second element is odd.
+
+Input:
+First line of input contains number of testcases T. For each testcase, there will be two lines, first of which contains N, number of elements to be pushed to vector, and next line contains N elements pushed to vector.
+
+Output:
+For each testcase, output the size of modified vector with its element. If no element is present in  modified vector, print "Empty" (without quotes) instead of vector elements.
+
+User Task:
+Your task is to complete the function vectorIterator(), which should delete all the pairs with second element odd and return modified vector.
+
+Constraints:
+1 <= T <= 10
+1 <= N <= 106
+1 <= V[i] <= 1016
+
+Example:
+Input:
+1
+5
+2 1 4 3 6 5 8 9 1 2
+
+Output:
+1
+1 2
+
+Explanation:
+Testcase 1: The only pair left after deleting pair with second odd element is (1, 2).

@@ -1,0 +1,26 @@
+Volume of Cuboid
+
+You are given l, b, h of a cuboid. Find the volume.
+
+Input Format:
+The first line of input contains T denoting the number of testcases. T testcases follow. Each testcase contains single line of input containing l, b,h separated by spaces.
+
+Output Format:
+For each testcase, in a new line, print the volume of the cuboid.
+
+Your Task:
+Since this is a function problem, you need to just complete the function volume(Cuboid c) that takes a cuboid object.
+
+Constraints:
+1 <= T <= 100
+1 <= l,b,h <= 1000
+
+Example:
+Input:
+1
+1 2 3
+Output:
+6
+
+Explanation:
+Testcase1: l=1, b= 2, h =3. l*b*h=1*2*3=6

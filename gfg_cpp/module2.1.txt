@@ -1,0 +1,26 @@
+You are given an array A of size N. All the elements of A, except one element, occur twice. You need to find the element that doesn't have its duplicate in A.
+
+Input Format:
+The first line of input contains T, the number of testcases. T testcases follow. Each testcase contains two lines of input. The first line contains N, the size of the array. The second line contains N elements of A separated by spaces.
+
+Output Format:
+For each testcase, in a new line, print the element that occurs single time in A. If no such elements exists then print -1.
+
+Your Task:
+Since this is a function problem, you don't need to read any input. Just complete the provided function findLoner.
+
+Constraints:
+1 <= T <= 500
+1<= N <= 107
+1 <= Ai <= 1018
+
+Examples:
+Input:
+2
+5
+1 1 2 2 3
+6
+1 1 2 2 3 3
+Output:
+3
+-1
