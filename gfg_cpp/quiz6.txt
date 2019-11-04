@@ -1,0 +1,11 @@
+Question 5 Question Marks: 5
+By using which of the following the elements in the associate container can be efficiently accessed?
+A
+Key
+B
+Position
+C
+Both Key & Position
+D
+None of these
+

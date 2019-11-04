@@ -1,0 +1,26 @@
+Banish the Commons
+
+You are given two arrays of size n1 and n2. Your task is to find all the elements that are common to both the arrays and exclude them. print a set that has all the uncommon elements of arr1 and arr2 in sorted order. If there are no uncommon elements the output would be empty.
+
+Input Format:
+The first line of input contains T denoting the number of testcases. T testcases follow. Each testcase contains two three lines of input. The first line contains n1 and n2 separated by a space. The second line contains elements of arr1. The third line contains elements of arr2.
+
+Output Format:
+For each testcase, in a new line, print the required answer.
+
+Your Task:
+Since this is a function problem, you don't need to take any input. Just complete the provided function uncommonElements that takes two arrays as input.
+
+Constraints:
+1 <= T <= 100
+1 <= n1,n2 <= 1000
+1 <= arr1i,arr2i <= 109
+
+Example:
+Input:
+1
+5 7
+1 2 3 4 5
+2 2 3 3 4 4 6
+Output:
+1 5 6

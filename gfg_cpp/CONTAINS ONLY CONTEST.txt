@@ -4,3 +4,36 @@ https://www.geeksforgeeks.org/minimum-number-of-jumps-to-reach-end-of-a-given-ar
 Controlled_Printing
 
 Coding with Operators
+
+RESULTS
+
+ALL PASS
+1.1 Coding with Operators
+1.2 Controlled_Printing
+1.3 Bridges of Stones
+
+ALL PASS
+2.1 The Loner
+2.2 Exists or Not?
+2.3 Sum Pair
+2.4 Make them One
+
+ALL PASS
+3.1 Filter the weeds
+3.2 Volume of Cuboid
+3.3 Cover the distance
+3.4 Diagonal Sum
+
+4.1 Add Vector Elements
+4.2 Vector Common Elements
+4.3 Play With Vectors
+FAIL 4.4 Frequency Major Elements
+
+ALL PASS
+5.1 Stack and Queue Operations
+5.2 Pattern Printer - CPP
+5.3 Prioritized Students
+
+6.1 Banish the Commons
+FAIL 6.2 Strings Frequency
+FAIL 6.3 Count Students

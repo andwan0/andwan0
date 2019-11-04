@@ -9,7 +9,7 @@ Ext install cpptools
 Visual Studio Code
 CTRL SHIFT P
 
-C/Cpp: Edit Configurations�
+C/Cpp: Edit Configurations…
 Creates c_cpp_properties.json
 Under intelliSenseMode add:
 

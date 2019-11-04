@@ -1,0 +1,28 @@
+Strings Frequency
+
+You are given an array A of size N. The array contains strings of lowercase characters. Now, you have to find strings and their frequency in lexiographically order.
+
+Input Format:
+The first line of input contains T, denoting the number of testcases. T testcases follow. Each testcase contains two lines of input.  The first line of input contains size of array N. The second line contains N strings separated by spaces.
+
+Output Format:
+For each test case, in a new line, print the required answer.
+
+Your Task:
+Since this is a function problem, you don't need to take any input. Just complete the function frequency(arr, n) that takes an array and size as input and returns a multiset.
+
+Constraints:
+1 <= T <= 100
+1 <= N <= 100
+
+Examples:
+Input:
+1
+5
+geeks abcd hello world geeks
+Output:
+abcd 1
+geeks 2
+hello 1
+world 1
+

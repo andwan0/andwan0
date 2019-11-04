@@ -1,0 +1,35 @@
+Count Students
+
+Given N students with marks obtained by them in an exam. The task is to count the students with same name and marks.
+
+Input: First line of input contains number of testcases T. For each testcase, first line of input contains N, number of students. Next N lines contains students name and his marks.
+
+Output: For each testcase, print students name, marks and count of same student with same name and marks, all seperated by space.
+
+Constraints:
+1 <= T <= 100
+1 <= N <= 104
+1 <= marks <= 106
+
+User Task:
+Your task is to complete the function countStudents() which takes multimap having students name and their marks, such that it should print students name in ascending order, with a constraint that student with same name and marks must be printed with their count in same line.
+
+Example:
+Input:
+1
+5
+john 50
+ankit 100
+ankit 100
+john 60
+ankit 30
+
+Output:
+ankit 100 2
+ankit 30 1
+john 60 1
+john 50 1
+
+Explanation:
+Testcase 1: There are 2 ankit with same marks, so count is 2. 1 john with some marks and another john with different marks.
+
