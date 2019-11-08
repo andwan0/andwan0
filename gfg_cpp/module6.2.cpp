@@ -6,14 +6,14 @@ multiset<string> frequency(string arr[],int n);
 //Position this line where user code will be pasted.
 int main() {
 	int t;
-	cin>>t;
+	t=1;//cin>>t;
 	while(t--)
 	{
 	   int n;
-	   cin>>n;
-	   string arr[n];
-	   for(int i=0;i<n;i++)
-	   cin>>arr[i];
+	   n=5;//cin>>n;
+	   string arr[n] = {"geeks", "abcd", "hello", "world", "geeks"};
+	   //for(int i=0;i<n;i++)
+	   //cin>>arr[i];
 	   
 	   multiset<string>s=frequency(arr,n);
 	   
@@ -31,10 +31,11 @@ multiset<string> frequency(string arr[],int n)
    multiset<string> result;
    map<string, int> list;
    for (int i = 0; i<n; i++) {
-       int count = list.count(arr[i]);
+       int count = list.count(arr[i]);//silly, the count is the key-value
       if (count == 0) {
           list.insert(pair<string,int>(arr[i], 1));
       } else {
+          count = list[arr[i]];
           list[arr[i]] = count+1;
       }
       result.insert(arr[i]);

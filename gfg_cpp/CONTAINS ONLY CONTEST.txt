@@ -28,6 +28,7 @@ ALL PASS
 4.2 Vector Common Elements
 4.3 Play With Vectors
 FAIL 4.4 Frequency Major Elements
+(this seem to work dunno why it fails on server)
 
 ALL PASS
 5.1 Stack and Queue Operations
@@ -35,5 +36,5 @@ ALL PASS
 5.3 Prioritized Students
 
 6.1 Banish the Commons
-FAIL 6.2 Strings Frequency
-FAIL 6.3 Count Students
+6.2 Strings Frequency
+6.3 Count Students
